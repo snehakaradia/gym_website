@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;1,200&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<style>
+    .container{
+      height: 500px;
+      width: 1519px;
+  
+    }
+    .navbar{
+      display: flex;
+      margin-top: -463px;
+    }
+    .nav1{
+      margin-top: -17px;
+    }
+    .nav2{
+      display: flex;
+    }
+    .nav3{
+      margin-top: -17px;
+    }
+    .so{
+	width: 117px;
+}
+.nav2 a{
+  text-decoration: none;
+  background-color: transparent ;
+}
+.nav2{
+  text-align: center;
+}
+.nav2 span{
+  color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: "Oswald", sans-serif;
+}
+.space{
+  margin-left: 30px;
+}
+   .space:hover{
+ color: #f36100;
+ font-weight: bolder;
+}
+
+
+
+.menu, .drop-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+   
+    letter-spacing: 1px;
+    font-family: "Oswald", sans-serif;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.menu-item a {
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #fff;
+    display: block;
+    
+}
+.menu-wrap{
+  margin-left: 30px;
+    margin-top: -14px;
+}
+.menu-item a:hover{
+  color: #f36100;
+  font-weight: bolder;
+}
+.drop-menu {
+    display: none;
+    position: absolute;
+    background-color: #212529;
+    width: 180px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin-left: -56px;
+    margin-top: 10px;
+}
+
+.drop-menu-item {
+    width: 100%;
+}
+
+.drop-menu-item a:hover {
+    color: #f36100;
+}
+
+.drop-menu-item a {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+    font-family: "Oswald", sans-serif;
+}
+
+.menu-item:hover .drop-menu {
+    display: block;
+}
+.center{
+  display: grid;
+  text-align: center;
+  margin-top: 122px;
+    margin-left: 29px;
+}
+.center span{
+  font-size: 60px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: "Oswald", sans-serif;
+}
+.ter{
+  display: flex;
+  margin-left: 505px;
+}
+.ter span{
+  font-size: 18px;
+    color: #f36100;
+    font-weight: 700;
+    font-family: "Muli", sans-serif;
+    margin-left: 13px;
+}
+#arrow{
+  color: #ffffff;
+  margin-top: 5px;
+}
+.ter a{
+  font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Muli", sans-serif;
+}
+
+#f{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+
+.menu-item #active{
+    color: #f36100;
+}
+
+
+
+
+
+/*table*/
+
+.container2{
+    height: 690px;
+    background-color: #151515;
+    display: grid;
+}
+.ttable{
+    margin-left: 172px;
+    margin-top: 30px;
+}
+.ttable span{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    margin-top: 8px;
+}
+
+
+
+
+
+table{
+        text-align: center;
+        border: 1px solid #363636;
+    }
+    .table{
+        padding-left: 172px;
+    }
+    
+    .table thead tr th{
+        text-align: center;
+        font-size: 14px;
+    color: #ffffff;
+    background-color: #f36100;
+    border: 1px solid #363636;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+    height: 52px;
+    }
+    .tt1{
+        font-size: 12px;
+    color: #f36100;
+    background: #000000;
+    border: 1px solid #363636;
+    width: 146px;
+    height: 120px;
+    }
+    .tt2{
+        background: #0a0a0a;
+        width: 146px;
+    height: 120px;
+    }
+    .tt22{
+        background: #0a0a0a;
+        width: 146px;
+    height: 120px;
+    }
+    .tt2 span{
+        color: #ffffff;
+        font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    }
+    .tt2 h3{
+        color: #a9a9a9;
+        font-size: 12px;
+        font-family: "Muli", sans-serif;
+    }
+    .tt3{
+        background-color: #151515;
+        width: 146px;
+    height: 120px;
+    }
+    .tt33{
+        background-color: #151515;
+        width: 146px;
+    height: 120px;
+    }
+    .tt3 span{
+        color: #ffffff;
+        font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+    }
+    .tt3 h3{
+        color: #a9a9a9;
+        font-size: 12px;
+        font-family: "Muli", sans-serif;
+    }
+    .tt2:hover span{
+        color: #ffffff;
+    }
+    .tt2:hover{
+        background-color: #f36100;
+    }
+    .tt2:hover h3{
+        color: #ffffff;
+    }
+    .tt3:hover{
+        background-color: #f36100;
+    }
+    .tt3:hover span{
+        color: #ffffff;
+    }
+    .tt3:hover h3{
+        color: #ffffff;
+    }
+    .line{
+        position: absolute;
+    
+    margin-left: -22px;
+    width: 187px;
+    height: 1px;
+    background: #363636;
+    transform: rotate(-40deg);
+}
+.line2{
+        position: absolute;
+        margin-left: -24px;
+   
+    width: 187px;
+    height: 1px;
+    background: #363636;
+    transform: rotate(-40deg);
+}
+.line3{
+    position: absolute;
+    margin-left: -21px;
+    width: 187px;
+    height: 1px;
+    background: #363636;
+    transform: rotate(-40deg);
+}
+.line4{
+        position: absolute;
+        margin-left: -24px;
+    width: 187px;
+    height: 1px;
+    background: #363636;
+    transform: rotate(-40deg);
+}
+.line5{
+    position: absolute;
+    margin-left: -24px;
+    width: 187px;
+    height: 1px;
+    background: #363636;
+    transform: rotate(-40deg);
+}
+    
+
+
+
+
+
+.png{
+	display: flex;
+}
+.pn1{
+	display: flex;
+}
+.pn2{
+	display: flex;
+}
+.pn3{
+	display: flex;
+}
+.pn11{
+	font-size: 30px;
+    color: #ffffff;
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    background: #f36100;
+    border-radius: 50%;
+    line-height: 65px;
+    text-align: center;
+    margin-right: 20px;
+}
+.png{
+	height: 140px;
+	background-color: #212529;
+	padding-left: 200px;
+	padding-top: 35px;
+}
+.pn2{
+	margin-left: 80px;
+}
+.pn3{
+	margin-left: 80px;
+}
+.pn12 span{
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Muli", sans-serif;
+}
+.pn12{
+	margin-top: 10px;
+}
+.pn22{
+  display: flex;
+  margin-top: 25px;
+}
+.pn22 span{
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Muli", sans-serif;
+}
+.pn22 p{
+    font-size: 14px;
+	color: #ffffff;
+	font-family: "Muli", sans-serif;
+	margin-left: 10px;
+}
+.pn22 h4{
+	color: #545454;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.pn33{
+	margin-top: 25px;
+}
+.pn33 span{
+	font-size: 14px;
+	color: #ffffff;
+	font-family: "Muli", sans-serif;
+}
+
+.footer{
+	height: 372px;
+	background-color: #0a0a0a;
+	display: flex;
+	padding-left: 220px;
+	padding-top: 50px;
+}
+.social{
+	display: grid;
+}
+.so2{
+	width: 360px;
+	margin-top: -40px;
+}
+
+.so2 p{
+	color: #c4c4c4;
+	font-size: 14px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+}
+.so3{
+	width: 360px;
+	margin-top: -60px;
+}
+#f{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #c4c4c4;
+}
+.social1 h4{
+	color: #ffffff;
+    font-weight: 600;
+	font-size: 24px;
+	font-family: "Oswald", sans-serif;
+	margin-left: 30px;
+}
+.social1 ul{
+	margin-top: 18px;
+}
+.social1 ul a{
+	color: #c4c4c4;
+	font-size: 14px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+	text-align: left;
+	line-height: 30.5px;
+}
+.social1 li{
+	list-style: none;
+	text-align: left;
+}
+.social1 ul a{
+	text-decoration: none;
+}
+.social1 ul li{
+	list-style: none;
+}
+.social2{
+	margin-left: 70px;
+}
+.social2 ul{
+	margin-top: 18px;
+}
+.social2 h4{
+	color: #ffffff;
+    font-weight: 600;
+	font-size: 24px;
+	font-family: "Oswald", sans-serif;
+	margin-left: 30px;
+}
+.social2 li{
+	list-style: none;
+}
+.social2 ul a{
+	color: #c4c4c4;
+	font-size: 14px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+	line-height: 30.5px;
+}
+.social2 ul a{
+	text-decoration: none;
+}
+.social2 ul li{
+	list-style: none;
+}
+
+.social3{
+	display: grid;
+	margin-left: 70px;
+}
+.so4{
+	display: grid;
+	margin-top: -86px;
+}
+.soo1{
+	display: grid;
+}
+
+.soo3{
+	display: flex;
+	margin-top: -41px;
+}
+.social3 h4{
+	color: #ffffff;
+    font-weight: 600;
+	font-size: 24px;
+	line-height: 1.2;
+	font-family: "Oswald", sans-serif;
+}
+.soo1 span{
+	color: #c4c4c4;
+    letter-spacing: 0.5px;
+	font-size: 16px;
+	font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+.soo1 a{
+	text-decoration: none;
+}
+.soo4 span{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+}
+.soo5{
+	margin-left: 10px;
+    margin-top: 7px;
+}
+.soo5 h4{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+	font-weight: 400;
+}
+.soo6{
+	margin-left: 10px;
+}
+.soo6 span{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+}
+.hor{
+	font-size: 12px;
+    color: #4d4d4d;
+	width: 350px;
+	margin-top: -60px;
+
+}
+.so5{
+	margin-top: -111px;
+}
+.sooo1 span{
+	color: #c4c4c4;
+    letter-spacing: 0.5px;
+	font-size: 16px;
+	font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+.sooo1 a{
+	text-decoration: none;
+}
+.sooo4 span{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+}
+.sooo5{
+	margin-left: 10px;
+    margin-top: 7px;
+}
+.sooo5 h4{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+	font-weight: 400;
+}
+.sooo6{
+	margin-left: 10px;
+}
+.sooo6 span{
+	font-size: 12px;
+    color: #4d4d4d;
+	font-family: "Muli", sans-serif;
+}
+.sooo3{
+	display: flex;
+}
+
+
+.horr{
+	font-size: 12px;
+    color: #4d4d4d;
+	width: 1100px;
+	margin-top: -105px;
+	margin-left: 215px;
+	}
+
+	.copy{
+		display: flex;
+		justify-content: center;
+	}
+	.right span{
+		font-size: 14px;
+    font-family: "Muli", sans-serif;
+    color: #a9a9a9;
+    font-weight: 400;
+    line-height: 24px;
+	letter-spacing: 0.5px;
+	}
+	#ht{
+		color: #f36100;
+		margin-left: 5px;
+	}
+	.name{
+		display: flex;
+		margin-left: 5px;
+	}
+	.name span{
+		font-size: 14px;
+    font-family: "Muli", sans-serif;
+    color: #a9a9a9;
+    font-weight: 400;
+    line-height: 24px;
+	letter-spacing: 0.5px;
+	
+	}
+	.name a{
+		text-decoration: none;
+		list-style: none;
+		background-color: transparent;
+	}
+	.name p{
+		font-size: 14px;
+    font-family: "Muli", sans-serif;
+    color: #f36100;
+    font-weight: 400;
+    line-height: 24px;
+	margin-left: 5px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <div class="container">
+        <img style="width: 1519px; height: 500px; margin-left: -116px;" src="https://preview.colorlib.com/theme/gymlife/img/breadcrumb-bg.jpg.webp" alt="">
+        <div class="navbar">
+           <div class="nav1">
+             <img src="https://preview.colorlib.com/theme/gymlife/img/logo.png.webp" alt="">
+           </div>
+         <div class="nav2">
+           <a href="index.html"><span>HOME</span></a>
+           <a href="aboutus.html"><span class="space">ABOUT US</span></a>
+           <a href="classess.html"><span class="space">CLASSES</span></a>
+           <a href="services.html"><span class="space">SERVICES</span></a>
+           <a href="our team.html"><span class="space">OUR TEAM</span></a>
+           <div class="menu-wrap">
+             <ul class="menu">
+                 <li class="menu-item">
+                     <a href="#" id="active">PAGE</a>
+                     <ul class="drop-menu">
+                         <li class="drop-menu-item">
+                             <a href="aboutus.html">About Us</a>
+                         </li>
+                         <li class="drop-menu-item">
+                             <a href="timetable.html">Classes timetable</a>
+                         </li>
+                         <li class="drop-menu-item">
+                             <a href="bmi.html">Bmi calculate</a>
+                         </li>
+                         <li class="drop-menu-item">
+                           <a href="our team.html">Our team</a>
+                       </li>
+                       <li class="drop-menu-item">
+                         <a href="gallery.html">Gallery</a>
+                     </li>
+                     <li class="drop-menu-item">
+                       <a href="blog.html">Our blog</a>
+                   </li>
+                     </ul>
+                 </li>
+             </ul>
+         </div>
+           <a href="contact.html"><span class="space">CONTACT</span></a>
+         </div>
+         <div class="nav3">
+           <div class="so">
+             <a href=""><i id="f" class="fa fa-facebook" aria-hidden="true"></i></a>
+             <a style="margin-left: 15px;" href=""><i id="f" class="fa fa-twitter" aria-hidden="true"></i></a>
+             <a style="margin-left: 15px;" href=""><i id="f" class="fa fa-youtube-play" aria-hidden="true"></i></a>
+             <a style="margin-left: 15px;" href=""><i id="f" class="fa fa-instagram" aria-hidden="true"></i></a>
+         </div>
+         </div>
+        </div>
+        <div class="center">
+         <span>OUR TEAM</span>
+         <div class="ter">
+           <a href="">Home</a>
+           <i id="arrow" class="fa fa-angle-right" aria-hidden="true"></i>
+           <a href="" style="margin-left: 15px;">Pages</a>
+           <i id="arrow" class="fa fa-angle-right" aria-hidden="true"></i>
+           <span>Contact us</span>
+         </div>
+        </div>
+     </div>
+
+     <div class="container2">
+        <div class="ttable">
+            <span>FIND YOUR TIME</span>
+        </div>
+        <div class="table">
+            <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tt1">6:00am-8:00am</td>
+                    <td class="tt2">
+                        <span>WEIGHT LOOSE</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>CARDIO</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>YOGA</span>
+                        <h3>Keaf Shen</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>FITNESS</span>
+                        <h3>Kimberly Stone</h3>
+                    </td>
+                    <td class="tt22">
+                        <div class="line"></div>
+                    </td>
+                    <td class="tt3">
+                        <span>BOXING</span>
+                        <h3>Rachel Adam</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>BODY BUILDING</span>
+                        <h3>Robert Cage</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tt1">10:00am-12:00pm</td>
+                    <td class="tt33">
+                        <div class="line2"></div>
+                    </td>
+                    <td class="tt2">
+                        <span>FITNESS</span>
+                        <h3>Kimberly Stone</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>WEIGHT LOOSE</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>CARDIO</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>BODY BUILDING</span>
+                        <h3>Robert Cage</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>KARATE</span>
+                        <h3>Donald Grey</h3>
+                    </td>
+                    <td class="tt33">
+                        <div class="line3"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tt1">5:00pm-7:00pm</td>
+                    <td class="tt2">
+                        <span>BOXING</span>
+                        <h3>Rachel Adam</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>KARATE</span>
+                        <h3>Donald Grey</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>BODY BUILDING</span>
+                        <h3>Robert Cage</h3>
+                    </td>
+                    <td class="tt33">
+                       <div class="line4"></div>
+                    </td>
+                    <td class="tt2">
+                        <span>YOGA</span>
+                        <h3>Keaf Shen</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>CARDIO</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>FITNESS</span>
+                        <h3>Kimberly Stone</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tt1">7:00pm-9:00pm</td>
+                    <td class="tt3">
+                        <span>CARDIO</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                    <td class="tt22">
+                        <div class="line5"></div>
+                    </td>
+                    <td class="tt3">
+                        <span>BOXING</span>
+                        <h3>Rachel Adam</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>YOGA</span>
+                        <h3>Keaf Shen</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>KARATE</span>
+                        <h3>Donald Grey</h3>
+                    </td>
+                    <td class="tt2">
+                        <span>BOXING</span>
+                        <h3>Rachel Adam</h3>
+                    </td>
+                    <td class="tt3">
+                        <span>WEIGHT LOOSE</span>
+                        <h3>RLefew D. Loee</h3>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+     </div>
+     
+
+     <div class="png">
+        <div class="pn1">
+          <div class="pn11"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="pn12"><span>333 Middle Winchendon Rd, Rindge,<br>NH 03461</span></div>
+        </div>
+        <div class="pn2">
+          <div class="pn11"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+          <div class="pn22">
+            <span>125-711-811</span> 
+            <h4>|</h4>
+            <p>125-668-886</p>
+          </div>
+        </div>
+        <div class="pn3">
+          <div class="pn11"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="pn33"><span>Support.gymcenter@gmail.com</span></div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <div class="social">
+            <div class="so1">
+              <img src="https://preview.colorlib.com/theme/gymlife/img/logo.png.webp" alt="">
+            </div>
+            <div class="so2">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+            </div>
+            <div class="so3">
+              <a href=""><i id="f" class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a style="margin-left: 10px;" href=""><i id="f" class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a style="margin-left: 10px;" href=""><i id="f" class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              <a style="margin-left: 10px;" href=""><i id="f" class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a style="margin-left: 10px;" href=""><i id="f" class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="social1">
+            <h4>Useful Links</h4>
+            <ul>
+              <a href=""><li>About</li></a>
+              <a href=""><li>Blog</li></a>
+              <a href=""><li>Classes</li></a>
+              <a href=""><li>Contact</li></a>
+            </ul>
+          </div>
+          <div class="social2">
+            <h4>Support</h4>
+            <ul>
+              <a href=""><li>Login</li></a>
+              <a href=""><li>My Account</li></a>
+              <a href=""><li>Subscribe</li></a>
+              <a href=""><li>Contact</li></a>
+            </ul>
+          </div>
+          <div class="social3">
+            <h4>Tips & Guides</h4>
+            <div class="so4">
+              <div class="soo1">
+               <a href=""><span>Physical fitness may help prevent depression,anxiety</span></a>
+                  <div class="soo3">
+                    <div class="soo4">
+                      <span>3 min read</span>
+                  </div>
+                  <div class="soo5">
+                      <h4>|</h4>
+                  </div>
+                  <div class="soo6">
+                      <span>20 comment</span>
+                  </div>
+                </div>
+              </div>
+              <div class="hor">
+                <hr>
+              </div>
+            </div>
+            <div class="so5">
+              <div class="sooo1">
+                <a href=""><span>Fitness:The best exercise to lose belly fat and tone up....</span></a>
+                   <div class="sooo3">
+                     <div class="sooo4">
+                         <span>3 min read</span>
+                     </div>
+                     <div class="sooo5">
+                         <h4>|</h4>
+                     </div>
+                     <div class="sooo6">
+                         <span>20 comment</span>
+                     </div>
+                   </div>
+                 </div>
+            </div>
+          </div>
+        </div>
+        <div class="container8">
+           <div class="horr">
+          <hr>
+           </div>
+           <div class="copy">
+            <div class="right">
+            <span>Copyright ©2023 All rights reserved | This template is made with </span>
+            </div>
+            <div class="heart">
+            <i id="ht" class="fa fa-heart" aria-hidden="true"></i>
+             </div>
+             <div class="name">
+            <span>by</span>
+            <a href=""><p>Sneha</p></a>
+             </div>
+            </div>
+         </div>
+      </footer>
+
+</body>
+</html>
